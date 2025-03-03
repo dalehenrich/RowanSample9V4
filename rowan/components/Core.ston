@@ -2,13 +2,14 @@ RwLoadComponent {
 	#name : 'Core',
 	#projectNames : [ ],
 	#componentNames : [
+		'renamed/Rename',
+		'renamed/Tests',
 		'tests/Tests'
 	],
 	#packageNames : [
 		'RowanSample9V4-Core_295',
 		'RowanSample9V4-Extensions_295',
-		'RowanSample9V4-GemStone_295',
-		'RowanSample9V4-RenamedPackage'
+		'RowanSample9V4-GemStone_295'
 	],
 	#comment : 'Primary component used for loading the core classes.'
 }
