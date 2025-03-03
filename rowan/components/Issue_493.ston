@@ -1,0 +1,13 @@
+RwLoadComponent {
+	#name : 'Issue_493',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'RowanSample9V4-Core',
+		'RowanSample9V4-Extensions',
+		'RowanSample9V4-GemStone',
+		'RowanSample9V4-GemStone-Tests',
+		'RowanSample9V4-Tests'
+	],
+	#comment : 'Single component that includes all of the packages'
+}
