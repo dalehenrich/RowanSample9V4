@@ -2584,6 +2584,45 @@ RwTestProjectLibraryIndexCard {
 	#rowanSHA : '6f8404a8c'
 }
 ```
+### [spec_0073](https://github.com/dalehenrich/RowanSample9V3/tree/spec_0073)
+```
+RwLoadSpecificationV2 {
+	#specName : 'spec_0073',
+	#projectName : 'RowanSample9V4',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V4.git',
+	#revision : 'spec_0073',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Start with  spec_0001, add 3 additional projects, using relativeRepositoryRoot to distinquish between projects'
+}
+
+RwTestProjectLibraryIndexCard {
+	#name : 'index_0073',
+	#title : 'Start with  spec_0001, add 3 additional projects, using relativeRepositoryRoot to distinquish between projects',
+	#specName : 'spec_0073',
+	#index : 73,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
+	#rowanIssues : [
+		571,
+		714
+	],
+	#gemstoneIssues : [ ],
+	#rowanSHA : '6f8404a8c'
+}
+```
 ### [spec_0074](https://github.com/dalehenrich/RowanSample9V3/tree/spec_0074)
 ```
 RwLoadSpecificationV2 {
