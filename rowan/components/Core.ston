@@ -14,13 +14,13 @@ RwLoadComponent {
 			'allusers' : {
 				#packageNameToPlatformPropertiesMap : {
 					'RowanSample9V4-Core' : {
-						'symbolDictName' : 'RowanSample9_2'
+						'symbolDictName' : 'RowanSample9_3'
 					},
 					'RowanSample9V4-Extensions' : {
-						'symbolDictName' : 'RowanSample9_2'
+						'symbolDictName' : 'RowanSample9_3'
 					},
 					'RowanSample9V4-GemStone' : {
-						'symbolDictName' : 'RowanSample9_3'
+						'symbolDictName' : 'RowanSample9_2'
 					}
 				}
 			}
