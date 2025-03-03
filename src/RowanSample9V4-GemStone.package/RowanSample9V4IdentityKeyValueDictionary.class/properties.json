@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IdentityKeyValueDictionary",
+	"category" : "RowanSample9V4-GemStone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RowanSample9V4IdentityKeyValueDictionary",
+	"type" : "normal"
+}
