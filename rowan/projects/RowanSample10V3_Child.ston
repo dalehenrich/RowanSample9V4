@@ -1,0 +1,21 @@
+RwLoadSpecificationV2 {
+	#specName : 'RowanSample10V3_Child',
+	#projectName : 'RowanSample10V3',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample10V3.git',
+	#revision : 'spec_0001',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : ''
+}
