@@ -1,11 +1,11 @@
-# RowanSample9V4 - spec_0001
-Bare bones package structure -Core and -Tests
+# RowanSample9V4 - spec_0084
+Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
+	#specName : 'spec_0084',
 	#projectName : 'RowanSample9V4',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V4.git',
-	#revision : 'spec_0001',
+	#revision : 'spec_0084',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,18 +20,18 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Bare bones package structure -Core and -Tests'
+	#comment : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Bare bones package structure -Core and -Tests',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
+	#name : 'index_0084',
+	#title : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition. Update RowanSample9V3Class1to use the Trait, instance and class size ..  update tests to test the trait methods',
+	#specName : 'spec_0084',
+	#index : 84,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
 	#rowanIssues : [
-		527
+		783
 	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : '6f8404a8c'

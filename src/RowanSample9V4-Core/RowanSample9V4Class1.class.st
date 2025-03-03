@@ -5,8 +5,16 @@ Class {
 	#name : 'RowanSample9V4Class1',
 	#superclass : 'Object',
 	#instVars : [
-		'ivar1'
+		'iv1'
 	],
+	#classVars : [
+		'Cv1'
+	],
+	#classInstVars : [
+		'civ1'
+	],
+	#traits : 'RowanSample9V4Trait1',
+	#classTraits : 'RowanSample9V4Trait1 classTrait',
 	#category : 'RowanSample9V4-Core'
 }
 
