@@ -1,0 +1,11 @@
+RwLoadComponent {
+	#name : 'Core',
+	#projectNames : [ ],
+	#componentNames : [
+		'vast/Core'
+	],
+	#packageNames : [
+		'RowanSample9V4-Common-Core'
+	],
+	#comment : 'Primary component used for loading the core classes.'
+}
