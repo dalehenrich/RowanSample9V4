@@ -3,7 +3,8 @@ RwLoadComponent {
 	#projectNames : [ ],
 	#componentNames : [ ],
 	#packageNames : [
-		'RowanSample9V4-Core'
+		'RowanSample9V4-Core',
+		'RowanSample9V4-Tests'
 	],
 	#comment : ''
 }

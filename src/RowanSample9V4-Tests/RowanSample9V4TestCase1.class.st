@@ -4,7 +4,7 @@ I test the example class
 Class {
 	#name : 'RowanSample9V4TestCase1',
 	#superclass : 'TestCase',
-	#category : 'RowanSample9V4-Core'
+	#category : 'RowanSample9V4-Tests'
 }
 
 { #category : 'tests' }
