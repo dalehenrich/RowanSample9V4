@@ -16,6 +16,11 @@ RowanSample9V4TestCase >> test2 [  self assert: RowanSample9V4Class1 bar = 'bar'
 ]
 
 { #category : 'tests' }
+RowanSample9V4TestCase >> testConstraints [
+	self assert: (RowanSample9V4Class1 _constraintsEqual: { { #'aaa' . String } . { #'bbb' . Integer }})
+]
+
+{ #category : 'tests' }
 RowanSample9V4TestCase >> testSymbolDicts [
 	self assert: ((Rowan image symbolDictNamed: 'RowanSample9_1') includesKey: 'RowanSample9V4Class1' asSymbol).
 	self assert: ((Rowan image symbolDictNamed: 'RowanSample9_1') includesKey: 'RowanSample9V4TestCase' asSymbol).
