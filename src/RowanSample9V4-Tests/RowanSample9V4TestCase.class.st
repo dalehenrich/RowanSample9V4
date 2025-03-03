@@ -12,15 +12,15 @@ RowanSample9V4TestCase >> test [  self assert: RowanSample9V4Class1 new foo = 1
 ]
 
 { #category : 'tests' }
-RowanSample9V4TestCase >> testInstVars_RowanSample9V4_embedded_1Class1 [
+RowanSample9V4TestCase >> testInstVars_RowanSample9V4Class1 [
 	| x |
-	self assert: (x := RowanSample9V4Class1 new ivar1_embedded) isNil.
+	self assert: (x := RowanSample9V4Class1 new ivar1) isNil.
 
 ]
 
 { #category : 'tests' }
-RowanSample9V4TestCase >> testInstVars_RowanSample9V4Class1 [
+RowanSample9V4TestCase >> testInstVars_RowanSample9V4_embedded_1Class1 [
 	| x |
-	self assert: (x := RowanSample9V4Class1 new ivar1) isNil.
+	self assert: (x := RowanSample9V4Class1 new ivar1_embedded) isNil.
 
 ]
