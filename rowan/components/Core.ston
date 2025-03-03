@@ -9,5 +9,22 @@ RwLoadComponent {
 		'RowanSample9V4-Extensions',
 		'RowanSample9V4-GemStone'
 	],
+	#conditionalPackageMapSpecs : {
+		'gemstone' : {
+			'allusers' : {
+				#packageNameToPlatformPropertiesMap : {
+					'RowanSample9V4-Core' : {
+						'symbolDictName' : 'RowanSample9_2'
+					},
+					'RowanSample9V4-Extensions' : {
+						'symbolDictName' : 'RowanSample9_2'
+					},
+					'RowanSample9V4-GemStone' : {
+						'symbolDictName' : 'RowanSample9_3'
+					}
+				}
+			}
+		}
+	},
 	#comment : 'Primary component used for loading the core classes.'
 }
