@@ -16,6 +16,15 @@ RowanSample9V4TestCase >> test2 [  self assert: RowanSample9V4Class1 bar = 'bar'
 ]
 
 { #category : 'tests' }
+RowanSample9V4TestCase >> testExport [
+	"exexute without error"
+	| filePath object |
+	filePath := (FileReference newTempFilePrefix: 'RowanSample9V4_export' suffix: 'ston') pathString.
+	object := RowanSample9V4Class1 new ivar1: filePath.
+	object exportTo: filePath
+]
+
+{ #category : 'tests' }
 RowanSample9V4TestCase >> testSymbolDicts [
 	self assert: ((Rowan image symbolDictNamed: 'RowanSample9_1') includesKey: 'RowanSample9V4Class1' asSymbol).
 	self assert: ((Rowan image symbolDictNamed: 'RowanSample9_1') includesKey: 'RowanSample9V4TestCase' asSymbol).
