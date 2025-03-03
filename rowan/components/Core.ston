@@ -4,6 +4,7 @@ RwLoadComponent {
 		'RowanSample9V4_embedded_1'
 	],
 	#componentNames : [
+		'Gnu/Core',
 		'tests/Tests'
 	],
 	#packageNames : [
