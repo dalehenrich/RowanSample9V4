@@ -1,5 +1,5 @@
-Extension { #name : 'RowanSample9V4Class1' }
+Extension { #name : #RowanSample9V4Class1 }
 
-{ #category : '*rowansample9v4-extensions' }
+{ #category : #'*rowansample9v4-extensions' }
 RowanSample9V4Class1 class >> bar [ ^'bar'
 ]
