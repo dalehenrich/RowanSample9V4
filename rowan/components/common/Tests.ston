@@ -1,5 +1,5 @@
 RwSubcomponent {
-	#name : 'common/RowanSample9V4',
+	#name : 'common/Tests',
 	#condition : 'common',
 	#projectNames : [ ],
 	#componentNames : [
