@@ -16,6 +16,14 @@ RowanSample9V4TestCase >> test2 [  self assert: RowanSample9V4Class1 bar = 'bar'
 ]
 
 { #category : 'tests' }
+RowanSample9V4TestCase >> testPostLoadDoits [
+	"part 1"
+	self assert: RowanSample9V4Class1 preLoadDoit = nil.
+	self assert: RowanSample9V4Class1 postLoadDoit = 'done'.
+
+]
+
+{ #category : 'tests' }
 RowanSample9V4TestCase >> testSymbolDicts [
 	self assert: ((Rowan image symbolDictNamed: 'RowanSample9_1') includesKey: 'RowanSample9V4Class1' asSymbol).
 	self assert: ((Rowan image symbolDictNamed: 'RowanSample9_1') includesKey: 'RowanSample9V4TestCase' asSymbol).
