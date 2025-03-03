@@ -1,4 +1,4 @@
-RwProjectSpecificationV3 {
+RwProjectSpecificationV4 {
 	#specName : 'project',
 	#projectVersion : '1.0.0',
 	#projectSpecPath : 'rowan',
