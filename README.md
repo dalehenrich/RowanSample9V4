@@ -1,11 +1,19 @@
-# RowanSample9V4 - spec_0089
-Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.
+# RowanSample9V4 - spec_0090
+Start with spec_0089 to create the project using Monticello package convention ... add a BaselineOf that can be used by Pharo to read and write the project ... add a foreign property (#package) to the classes to be compatible out of the box with Pharo.
+### Example Metacello load expression
+```
+Metacello new
+  repository: 'tonel:///export/bosch1/users/dhenrich/_stones/37x/stones/rowan3_dev_g/sandbox/RowanSample9V4/src';
+  baseline: 'RowanSample9V4';
+  load: #().
+```
+
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0089',
+	#specName : 'spec_0090',
 	#projectName : 'RowanSample9V4',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V4.git',
-	#revision : 'spec_0089',
+	#revision : 'spec_0090',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,21 +28,22 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.'
+	#comment : 'Start with spec_0089 to create the project using Monticello package convention ... add a BaselineOf that can be used by Pharo to read and write the project ... add a foreign property (#package) to the classes to be compatible out of the box with Pharo.\n### Example Metacello load expression\n```\nMetacello new\n  repository: \'tonel:///export/bosch1/users/dhenrich/_stones/37x/stones/rowan3_dev_g/sandbox/RowanSample9V4/src\';\n  baseline: \'RowanSample9V4\';\n  load: #().\n```\n'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0089',
-	#title : 'Start with spec_0001 and add 6 methods with selectors to test that we are using unicode codepoints for sorting, not unicode sort order.',
-	#specName : 'spec_0089',
-	#index : 89,
-	#derivedFrom : 'spec_0001',
-	#comment : '',
+	#name : 'index_0090',
+	#title : 'Start with spec_0089 to create the project using Monticello package convention ... add a BaselineOf that can be used by Pharo to read and write the project ... add a foreign property (#package) to the classes to be compatible out of the box with Pharo.\n### Example Metacello load expression\n```\nMetacello new\n  repository: \'tonel:///export/bosch1/users/dhenrich/_stones/37x/stones/rowan3_dev_g/sandbox/RowanSample9V4/src\';\n  baseline: \'RowanSample9V4\';\n  load: #().\n```\n',
+	#specName : 'spec_0090',
+	#index : 90,
+	#derivedFrom : 'spec_0089',
+	#comment : 'Intended for internal Monticello package convention testing ... the presence of the BaselineOf is to make testing with Pharo possible',
 	#rowanIssues : [
-		953
+		829,
+		959
 	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : '3d8a11eae'
+	#rowanSHA : '5ba4414df'
 }
 ```
 

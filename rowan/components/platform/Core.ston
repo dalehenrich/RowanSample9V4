@@ -1,0 +1,10 @@
+RwSubcomponent {
+	#name : 'platform/Core',
+	#condition : 'common',
+	#projectNames : [ ],
+	#componentNames : [
+		'platform/pharo/Core'
+	],
+	#packageNames : [ ],
+	#comment : 'Component for loading pharo-specific packages'
+}

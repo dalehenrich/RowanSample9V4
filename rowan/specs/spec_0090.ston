@@ -1,0 +1,21 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0090',
+	#projectName : 'RowanSample9V4',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V4.git',
+	#revision : 'spec_0090',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Start with spec_0089 to create the project using Monticello package convention ... add a BaselineOf that can be used by Pharo to read and write the project ... add a foreign property (#package) to the classes to be compatible out of the box with Pharo.\n### Example Metacello load expression\n```\nMetacello new\n  repository: \'tonel:///export/bosch1/users/dhenrich/_stones/37x/stones/rowan3_dev_g/sandbox/RowanSample9V4/src\';\n  baseline: \'RowanSample9V4\';\n  load: #().\n```\n'
+}

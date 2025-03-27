@@ -7,7 +7,8 @@ Class {
 	#instVars : [
 		'ivar1'
 	],
-	#category : 'RowanSample9V4-Core'
+	#category : 'RowanSample9V4-Core',
+	#package : 'RowanSample9V4-Core'
 }
 
 { #category : 'accessing' }
