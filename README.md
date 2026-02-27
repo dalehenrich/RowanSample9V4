@@ -1,11 +1,11 @@
-# RowanSample9V4 - spec_0001
-Bare bones package structure -Core and -Tests
+# RowanSample9V4 - spec_0087
+Start with spec_0001; add and use Traits -- GemStone-specific disk format no trait package and category.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
+	#specName : 'spec_0087',
 	#projectName : 'RowanSample9V4',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V4.git',
-	#revision : 'spec_0001',
+	#revision : 'spec_0087',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,21 +20,21 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Bare bones package structure -Core and -Tests'
+	#comment : 'Start with spec_0001; add and use Traits -- GemStone-specific disk format no trait package and category.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Bare bones package structure -Core and -Tests',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample9-Core and RowanSample9-Tests packages',
+	#name : 'index_0087',
+	#title : 'Start with spec_0001; add and use Traits -- GemStone-specific disk format no trait package and category.',
+	#specName : 'spec_0087',
+	#index : 87,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
 	#rowanIssues : [
-		527
+		938
 	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : '6f8404a8c'
+	#rowanSHA : '4420a0e79'
 }
 ```
 
