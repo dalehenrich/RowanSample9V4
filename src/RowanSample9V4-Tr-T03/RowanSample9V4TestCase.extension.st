@@ -1,0 +1,17 @@
+Extension { #name : 'RowanSample9V4TestCase' }
+
+{ #category : 'tests' }
+RowanSample9V4TestCase >> testCiv2_t [  self assert: RowanSample9V4Class1 civ2_t = nil
+]
+
+{ #category : 'tests' }
+RowanSample9V4TestCase >> testCv2_t [  self assert: RowanSample9V4Class1 new cv2_t = nil
+]
+
+{ #category : 'tests' }
+RowanSample9V4TestCase >> testIv2_t [  self assert: RowanSample9V4Class1 new iv2_t = nil
+]
+
+{ #category : 'tests' }
+RowanSample9V4TestCase >> testTrait [  self assert: ((ClassOrganizer new traits) includes: RowanSample9V4Trait1)
+]
