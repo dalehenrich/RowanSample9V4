@@ -3076,6 +3076,44 @@ RwTestProjectLibraryIndexCard {
 	#rowanSHA : '6f8404a8c'
 }
 ```
+### [spec_0086](https://github.com/dalehenrich/RowanSample9V4/tree/spec_0086)
+```
+RwLoadSpecificationV2 {
+	#specName : 'spec_0086',
+	#projectName : 'RowanSample9V4',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample9V4.git',
+	#revision : 'spec_0086',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition -- ensure compatibility with Pharo (category and package name written to disk).'
+}
+
+RwTestProjectLibraryIndexCard {
+	#name : 'index_0086',
+	#title : 'Start with spec_0001 (RowanSample9V3) and add a Trait definition -- ensure compatibility with Pharo (category and package name written to disk).',
+	#specName : 'spec_0086',
+	#index : 86,
+	#derivedFrom : 'spec_0001',
+	#comment : '',
+	#rowanIssues : [
+		938
+	],
+	#gemstoneIssues : [ ],
+	#rowanSHA : '4420a0e79'
+}
+```
 ### [spec_0089](https://github.com/dalehenrich/RowanSample9V4/tree/spec_0089)
 ```
 RwLoadSpecificationV2 {
