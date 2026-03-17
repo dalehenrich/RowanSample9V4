@@ -9,8 +9,7 @@ Trait {
 	#classVars : [
 		'Cv2'
 	],
-	#category : 'RowanSample9V4-Tr05',
-	#package : 'RowanSample9V4-Tr05'
+	#category : 'RowanSample9V4-Tr05'
 }
 
 { #category : 'accessing' }
